@@ -90,19 +90,20 @@ fn main() {
 
 ## 🔒 Security Protocol
 
-Metadata Protection: Packet headers are minimized and encrypted to resist traffic analysis.
+- Metadata Protection: Packet headers are minimized and encrypted to resist traffic analysis.
 
-Replay Protection: Uses a sliding window bloom filter to reject replayed packets without requiring synchronized clocks.
+- Replay Protection: Uses a sliding window bloom filter to reject replayed packets without requiring synchronized clocks.
 
-Perfect Forward Secrecy: Sessions (when established) rotate keys automatically based on volume thresholds.
+- Perfect Forward Secrecy: Sessions (when established) rotate keys automatically based on volume thresholds.
 
 ---
 
 ## ⚖️ License
 
-Apache 2.0
+### Apache 2.0
 
-Permissive: Allows integration into proprietary firmware without viral effects.
+- Permissive: Allows integration into proprietary firmware without viral effects.
 
-Patent Grant: Includes an explicit patent grant, protecting users from litigation regarding the mesh routing algorithms.
+- Patent Grant: Includes an explicit patent grant, protecting users from litigation regarding the mesh routing algorithms.
+
 ---
